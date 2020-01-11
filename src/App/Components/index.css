@@ -1,0 +1,55 @@
+html, body {
+    background-image: url(https://dvdbash.files.wordpress.com/2015/12/widescreen-gaming-gta-5-1627-wallpaper-michael-vinewood-full-grand-theft-auto-dvdbash.jpg);
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.game {
+    text-align: center;
+    padding: 10em;
+}
+
+.square {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.board-row {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.button {
+    float: left;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 54px;
+    height: 104px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    background-color: #ffd54f;
+    opacity: 50%;
+    width: 104px;
+    color: #ffffff;
+    border: 2px solid #ff6f00;
+    transition: background-color 1s ease;
+}
+
+.button:hover {
+    background-color: #ffc107;
+    transition: background-color 1s ease;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.wrapper {
+    text-align: center;
+}
