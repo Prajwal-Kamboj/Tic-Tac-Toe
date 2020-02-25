@@ -1,5 +1,6 @@
 html, body {
-    background-image: url(https://dvdbash.files.wordpress.com/2015/12/widescreen-gaming-gta-5-1627-wallpaper-michael-vinewood-full-grand-theft-auto-dvdbash.jpg);
+    /* background-image: url(https://dvdbash.files.wordpress.com/2015/12/widescreen-gaming-gta-5-1627-wallpaper-michael-vinewood-full-grand-theft-auto-dvdbash.jpg); */
+    /* background-image: url(http://xdesktopwallpapers.com/wp-content/uploads/2012/01/Candice%20Swanepoel%20Sexy%20Looking%20In%20Pink%20Dress.jpg); */
     background-size: auto;
     margin: 0;
     padding: 0;
@@ -33,16 +34,16 @@ html, body {
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    background-color: #ffd54f;
-    opacity: 50%;
+    background-color: #e1bee7;
+    opacity: 80%;
     width: 104px;
     color: #ffffff;
-    border: 2px solid #ff6f00;
+    border: 2px solid #6a1b9a;
     transition: background-color 1s ease;
 }
 
 .button:hover {
-    background-color: #ffc107;
+    background-color: #ba68c8;
     transition: background-color 1s ease;
 }
 

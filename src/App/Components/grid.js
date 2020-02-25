@@ -48,12 +48,13 @@ class Grid extends React.Component{
     render(){
         console.log(this.state.squares);
         this.checkWinner();
+        if(this.state.counter == 9) window.location.reload();
         const status = 'Next Player is '+ (this.state.isX? 'X':'O');
        
         if(this.state.winner == null) {
             return (
                 <div className="wrapper mt-1">
-                    <div className="mt-1">{status}</div>
+                    <h2 className="mt-1">{status}</h2>
                     <div className="board-row mt-1"> 
                         {this.renderSq(0)} {this.renderSq(1)}  {this.renderSq(2)}
                     </div>
